@@ -1,4 +1,4 @@
-GameOfThronesHouses
+A Song of Ice and Fire
 ===================
 
-A list of houses in song of ice and fire. Raise your banners!!
+Raise your banners and play the game of thrones!!!
