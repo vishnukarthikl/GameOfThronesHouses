@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HouseTableViewController.h
 //  ExtendedPhotoViewer
 //
 //  Created by Vishnu Karthik on 09/07/13.
@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "domain/House.h"
+#import "DisplayViewController.h"
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
-@property NSArray * pictures;
+@interface HouseTableViewController : UITableViewController
+
 @end

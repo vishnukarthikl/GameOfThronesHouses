@@ -7,23 +7,29 @@
 //
 
 #import "ViewController.h"
+#import "service/PictureService.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize pictures;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    pictures = [[PictureService alloc] getAllPictures];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [pictures count];
 }
 
 @end
