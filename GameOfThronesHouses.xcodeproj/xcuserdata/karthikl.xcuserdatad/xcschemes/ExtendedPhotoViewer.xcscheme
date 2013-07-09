@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7D39BE27178C6F3600085722"
-               BuildableName = "ExtendedPhotoViewer.app"
+               BuildableName = "GameOfThronesHouses.app"
                BlueprintName = "GameOfThronesHouses"
                ReferencedContainer = "container:GameOfThronesHouses.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D39BE27178C6F3600085722"
-            BuildableName = "ExtendedPhotoViewer.app"
+            BuildableName = "GameOfThronesHouses.app"
             BlueprintName = "GameOfThronesHouses"
             ReferencedContainer = "container:GameOfThronesHouses.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D39BE27178C6F3600085722"
-            BuildableName = "ExtendedPhotoViewer.app"
+            BuildableName = "GameOfThronesHouses.app"
             BlueprintName = "GameOfThronesHouses"
             ReferencedContainer = "container:GameOfThronesHouses.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7D39BE27178C6F3600085722"
-            BuildableName = "ExtendedPhotoViewer.app"
+            BuildableName = "GameOfThronesHouses.app"
             BlueprintName = "GameOfThronesHouses"
             ReferencedContainer = "container:GameOfThronesHouses.xcodeproj">
          </BuildableReference>
