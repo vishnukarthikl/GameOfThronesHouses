@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F763EBDF32BD4BAFAE23FFE /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F763D368E7BFAAC915680CC /* House.m */; };
+		3F763F5A88DED65694BE50F7 /* HouseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7636AB75E3AAFBD8312D33 /* HouseService.m */; };
 		7D39BE2C178C6F3600085722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D39BE2B178C6F3600085722 /* UIKit.framework */; };
 		7D39BE2E178C6F3600085722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D39BE2D178C6F3600085722 /* Foundation.framework */; };
 		7D39BE30178C6F3600085722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D39BE2F178C6F3600085722 /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F7636A59EB2E64644AA4618 /* HouseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseService.h; sourceTree = "<group>"; };
+		3F7636AB75E3AAFBD8312D33 /* HouseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseService.m; sourceTree = "<group>"; };
 		3F763D29444AFAD34484555D /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
 		3F763D368E7BFAAC915680CC /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
 		7D39BE28178C6F3600085722 /* GameOfThronesHouses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThronesHouses.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +100,15 @@
 			path = domain;
 			sourceTree = "<group>";
 		};
+		3F763B3742B225D608F33CF1 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				3F7636AB75E3AAFBD8312D33 /* HouseService.m */,
+				3F7636A59EB2E64644AA4618 /* HouseService.h */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
 		7D39BE1F178C6F3600085722 = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +150,7 @@
 				7D39BE6D178C81DA00085722 /* DisplayViewController.m */,
 				7D39BE6F178C81F600085722 /* InfoViewController.h */,
 				7D39BE70178C81F600085722 /* InfoViewController.m */,
+				3F763B3742B225D608F33CF1 /* service */,
 			);
 			path = ExtendedPhotoViewer;
 			sourceTree = "<group>";
@@ -262,6 +275,7 @@
 				7D39BE6B178C818B00085722 /* HouseTableViewController.m in Sources */,
 				7D39BE6E178C81DA00085722 /* DisplayViewController.m in Sources */,
 				7D39BE71178C81F600085722 /* InfoViewController.m in Sources */,
+				3F763F5A88DED65694BE50F7 /* HouseService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

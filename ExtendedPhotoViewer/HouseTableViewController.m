@@ -1,19 +1,14 @@
-//
-//  HouseTableViewController.m
-//  ExtendedPhotoViewer
-//
-//  Created by Vishnu Karthik on 09/07/13.
-//  Copyright (c) 2013 Vishnu Karthik. All rights reserved.
-//
 
 #import "HouseTableViewController.h"
+#import "service/HouseService.h"
 
 @interface HouseTableViewController ()
 
 @end
 
-@implementation HouseTableViewController
+@implementation HouseTableViewController {
 NSMutableArray *houses;
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"ShowHouse"]) {
@@ -34,23 +29,7 @@ NSMutableArray *houses;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    houses = [[NSMutableArray alloc] init];
-    [houses addObject:[[House alloc] initWith:@"Stark" withDescription:@"Winter is coming" withFileName:@"stark.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Baratheon" withDescription:@"Ours is the fury" withFileName:@"baratheon.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Lannister" withDescription:@"Hear me roar" withFileName:@"lannister.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Targaryen" withDescription:@"Fire and blood" withFileName:@"targaryen.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Karstark" withDescription:@"The sun of winter" withFileName:@"karstark.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Tyrell" withDescription:@"Growing strong" withFileName:@"tyrell.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Bolton" withDescription:@"Our blades are sharp" withFileName:@"bolton.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Watch" withDescription:@"Sword in the dark" withFileName:@"watch.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Martell" withDescription:@"Unbowed, unbend, unbroken" withFileName:@"martell.jpg"]];
-    [houses addObject:[[House alloc] initWith:@"Mormont" withDescription:@"Here we stand" withFileName:@"mormont.jpg"]];
-
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    houses = [HouseService getAllHouses];
 }
 
 
@@ -82,44 +61,6 @@ NSMutableArray *houses;
     return cell;
 }
 
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    }   
-    else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 #pragma mark - Table view delegate
 

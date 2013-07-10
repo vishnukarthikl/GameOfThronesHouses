@@ -102,7 +102,7 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="7ND-p6-tdE">
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="349" id="olx-UT-euP"/>
+                                    <constraint firstAttribute="height" constant="218" id="IEC-OR-1gl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Optima-Regular" family="Optima" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -113,8 +113,8 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="7ND-p6-tdE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="9iy-JQ-6lP"/>
                             <constraint firstItem="xoY-wO-Tty" firstAttribute="leading" secondItem="QNq-3a-hro" secondAttribute="leading" type="default" id="VVK-Y8-wTO"/>
-                            <constraint firstItem="7ND-p6-tdE" firstAttribute="top" secondItem="QNq-3a-hro" secondAttribute="top" constant="99" id="b2a-dq-kX4"/>
-                            <constraint firstItem="xoY-wO-Tty" firstAttribute="centerY" secondItem="QNq-3a-hro" secondAttribute="centerY" type="default" id="dKz-lI-vBj"/>
+                            <constraint firstItem="xoY-wO-Tty" firstAttribute="bottom" secondItem="QNq-3a-hro" secondAttribute="bottom" type="default" id="aIq-se-ahn"/>
+                            <constraint firstItem="7ND-p6-tdE" firstAttribute="centerY" secondItem="xoY-wO-Tty" secondAttribute="centerY" type="default" id="dn3-1b-a6a"/>
                             <constraint firstItem="xoY-wO-Tty" firstAttribute="top" secondItem="QNq-3a-hro" secondAttribute="top" type="default" id="hEC-nV-QVx"/>
                             <constraint firstItem="7ND-p6-tdE" firstAttribute="leading" secondItem="QNq-3a-hro" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="oeA-sC-yx7"/>
                             <constraint firstItem="xoY-wO-Tty" firstAttribute="trailing" secondItem="QNq-3a-hro" secondAttribute="trailing" type="default" id="ot5-BY-Vft"/>

@@ -1,11 +1,3 @@
-//
-//  DisplayViewController.m
-//  ExtendedPhotoViewer
-//
-//  Created by Vishnu Karthik on 09/07/13.
-//  Copyright (c) 2013 Vishnu Karthik. All rights reserved.
-//
-
 #import "DisplayViewController.h"
 
 @interface DisplayViewController ()

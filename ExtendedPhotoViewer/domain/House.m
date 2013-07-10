@@ -12,10 +12,11 @@
 @implementation House
 @synthesize name,motto,fileLocation;
 
-- (id)initWith:(NSString *)houseName withDescription:(NSString *)houseMotto withFileName:fileLocation{
+- (id)initWith:(NSString *)houseName withDescription:(NSString *)houseMotto withFileName:vFileLocation {
+    self = [super init];
     self.name = houseName;
     self.motto = houseMotto;
-    self.fileLocation = fileLocation;
+    self.fileLocation = vFileLocation;
     return self;
 }
 
