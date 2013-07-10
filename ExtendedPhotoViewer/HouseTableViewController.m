@@ -39,6 +39,12 @@ NSMutableArray *houses;
     [houses addObject:[[House alloc] initWith:@"Baratheon" withDescription:@"Ours is the fury" withFileName:@"baratheon.jpg"]];
     [houses addObject:[[House alloc] initWith:@"Lannister" withDescription:@"Hear me roar" withFileName:@"lannister.jpg"]];
     [houses addObject:[[House alloc] initWith:@"Targaryen" withDescription:@"Fire and blood" withFileName:@"targaryen.jpg"]];
+    [houses addObject:[[House alloc] initWith:@"Karstark" withDescription:@"The sun of winter" withFileName:@"karstark.jpg"]];
+    [houses addObject:[[House alloc] initWith:@"Tyrell" withDescription:@"Growing string" withFileName:@"tyrell.jpg"]];
+    [houses addObject:[[House alloc] initWith:@"Bolton" withDescription:@"Our blades are sharp" withFileName:@"bolton.jpg"]];
+    [houses addObject:[[House alloc] initWith:@"Watch" withDescription:@"Sword in the dark" withFileName:@"watch.jpg"]];
+    [houses addObject:[[House alloc] initWith:@"Martell" withDescription:@"Unbowed, unbend, unbroken" withFileName:@"martell.jpg"]];
+    [houses addObject:[[House alloc] initWith:@"Mormont" withDescription:@"Here we stand" withFileName:@"mormont.jpg"]];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
